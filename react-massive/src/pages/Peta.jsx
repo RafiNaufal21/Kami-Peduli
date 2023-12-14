@@ -27,7 +27,7 @@ const Peta = () => {
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="h-100">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
-                  Peta Rawan Bencana
+                  Indonesia Rawan Bencana
                 </div>
                 <h1 class="display-6 mb-5">Jenis- Jenis Bencana Alam</h1>
                 <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
@@ -48,6 +48,101 @@ const Peta = () => {
           </div>
         </div>
       </div>
+
+    <div class="container-xxl">
+      <h2 class="blog-grid-title-lg mb-3" style={{color: "black"}}>Gempabumi Terkini (M ≥ 5.0)</h2>
+      
+      <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+        <th>No</th>
+        <th>Waktu Gempa</th>
+        <th>Lintang</th>
+        <th>Bujur</th>
+        <th>Magnitudo</th>
+        <th>Kedalaman</th>
+        <th>Wilayah</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>11-12-23 <br/>17:16:40 WIB</td>
+        <td>-0.49</td>
+        <td>101.36</td>
+        <td>5.8</td>
+        <td>257 Km</td>
+        <td>19 km BaratDaya KUANTANSINGINGI-RIAU</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>11-12-23 <br/>11:33:32 WIB</td>
+        <td>2.62</td>
+        <td>128.23</td>
+        <td>5.3</td>
+        <td>114 Km</td>
+        <td>62 km TimurLaut PULAUDOI-MALUT</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>11-12-23 <br/>02:52:14 WIB</td>
+        <td>-4.39</td>
+        <td>139.67</td>
+        <td>5.5</td>
+        <td>72 Km</td>
+        <td>19 km TimurLaut YAHUKIMO-PAPUAPGNGN</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>10-12-23 <br/>11:49:46 WIB</td>
+        <td>-3.55</td>
+        <td>141.05</td>
+        <td>5.3</td>
+        <td>105 Km</td>
+        <td>39 km Tenggara KEEROM-PAPUA</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>07-12-23 <br/>20:09:44 WIB</td>
+        <td>5.74</td>
+        <td>125.50</td>
+        <td>5.6</td>
+        <td>12 Km</td>
+        <td>206 km BaratLaut PULAUKARATUNG-SULUT</td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>07-12-23 <br/>09:09:22 WIB</td>
+        <td>-1.15</td>
+        <td>126.83</td>
+        <td>5.0</td>
+        <td>10 Km</td>
+        <td>92 km BaratDaya LABUHA-MALUT</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>05-12-23 <br/>19:36:37 WIB</td>
+        <td>2.64</td>
+        <td>128.24</td>
+        <td>5.6</td>
+        <td>18 Km</td>
+        <td>64 km TimurLaut PULAUDOI-MALUT</td>
+        </tr>
+        <tr>
+        <td>8</td>
+        <td>03-12-23 <br/>09:39:57 WIB</td>
+        <td>-2.69</td>
+        <td>129.46</td>
+        <td>5.2</td>
+        <td>10 Km</td>
+        <td>87 km TimurLaut MALUKUTENGAH</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <center><div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mt-2 mb-4" >Peta Rawan Bencana</div></center>
+      
       <div class="container-fluid bg-light overflow-hidden px-lg-0">
         <div class="container contact px-lg-0">
           <div class="row g-0 mx-lg-0">

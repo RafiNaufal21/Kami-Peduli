@@ -4,6 +4,48 @@ import { useState } from "react";
 import axios from "axios";
 
 
+document.getElementById("donateButton").addEventListener("click", function () {
+  var selectedAmount = document.querySelector(
+    'input[id="btnradio1"]:checked'
+  );
+
+  if (selectedAmount) {
+    var modal = new bootstrap.Modal(
+      document.getElementById("modalGopay"),
+      { backdrop: "static", keyboard: false }
+    );
+    modal.show();
+  }
+});
+
+document.getElementById("donateButton").addEventListener("click", function () {
+  var selectedAmount = document.querySelector(
+    'input[id="btnradio2"]:checked'
+  );
+
+  if (selectedAmount) {
+    var modal = new bootstrap.Modal(
+      document.getElementById("modalDana"),
+      { backdrop: "static", keyboard: false }
+    );
+    modal.show();
+  }
+});
+
+document.getElementById("donateButton").addEventListener("click", function () {
+  var selectedAmount = document.querySelector(
+    'input[id="btnradio3"]:checked'
+  );
+
+  if (selectedAmount) {
+    var modal = new bootstrap.Modal(
+      document.getElementById("modalShopee"),
+      { backdrop: "static", keyboard: false }
+    );
+    modal.show();
+  }
+});
+
 const LanjutDonasi = () => {
   const [nama, setNama] = useState("");
   const [email, setEmail] = useState("");
@@ -168,7 +210,7 @@ const LanjutDonasi = () => {
                       checked
                     />
                     <label className="btn btn-outline-primary" for="btnradio1">
-                      <img src="img/logoGoPay.svg" />
+                      <img src="img/logoGoPay.svg" className="w-100"/>
                     </label>
 
                     <input
@@ -180,7 +222,7 @@ const LanjutDonasi = () => {
                       data-bs-target="#modalOvo"
                     />
                     <label className="btn btn-outline-primary" for="btnradio2">
-                      <img src="img/dana.png" />
+                      <img src="img/dana.png" className="w-100"/>
                     </label>
 
                     <input
@@ -191,7 +233,7 @@ const LanjutDonasi = () => {
                       autocomplete="off"
                     />
                     <label className="btn btn-outline-primary" for="btnradio3">
-                      <img src="img/ShopeePay.png" />
+                      <img src="img/ShopeePay.png" className="w-100"/>
                     </label>
                   </div>
                   <div className="my-2" style={{ position: "relative" }}>
@@ -300,6 +342,8 @@ const LanjutDonasi = () => {
           </div>
         </div>
       </section>
+
+      {/* Modal */}
       <div
         className="modal fade"
         id="modalGopay"
