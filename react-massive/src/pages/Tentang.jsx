@@ -167,7 +167,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                  <img className="img-fluid" src="img/rafi.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Rafi Naufal Y. R.</h5>
@@ -192,7 +192,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                  <img className="img-fluid" src="img/devi.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Devi Yohana Samosir</h5>
@@ -217,7 +217,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                  <img className="img-fluid" src="img/suci.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Alfiana Suci</h5>
@@ -242,7 +242,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                  <img className="img-fluid" src="img/rifqi.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Rifqi Nanda</h5>
@@ -267,7 +267,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                  <img className="img-fluid" src="img/vio.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Vio Fatikhi A.</h5>
@@ -292,7 +292,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                  <img className="img-fluid" src="img/tia.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Autiyah Muskiro</h5>
@@ -317,7 +317,7 @@ const Tentang = () => {
             >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                  <img className="img-fluid" src="img/tedy.png" alt="" />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Tedy </h5>

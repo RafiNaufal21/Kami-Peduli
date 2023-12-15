@@ -4,7 +4,7 @@ import Causes from "../fragments/Causes";
 import Navbar from "../fragments/Navbar";
 import Spinner from "../fragments/Spinner";
 import Service from "../fragments/Service";
-import Donasi from "../fragments/Donasi";
+import Donasiberanda from "../fragments/Donasiberanda";
 import TestimonialCarousel from "../fragments/Testimonials";
 import Footer from "../fragments/Footer";
 
@@ -18,7 +18,7 @@ const Home = () => {
       <About />
       <Causes />
       <Service />
-      <Donasi />
+      <Donasiberanda />
       <TestimonialCarousel />
       <Footer />
       

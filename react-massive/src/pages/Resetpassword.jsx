@@ -2,53 +2,9 @@ import React, { useState } from "react";
 import Spinner from "../fragments/Spinner";
 import { Link } from "react-router-dom";
 import axios from "axios";
-const Masuk = () => {
-  const [isRegisterActive, setRegisterActive] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [emailRegister, setEmailRegister] = useState("");
-  const [passwordRegister, setPasswordRegister] = useState("");
-  const [Username, setUsername] = useState("");
 
-  const handleRegister = async () => {
-    try {
-      const response = await axios
-        .post("http://localhost:5055/user", {
-          email: emailRegister,
-          password: passwordRegister,
-          username: Username,
-        })
-        .then((res) => {
-          console.log(res.data);
-        });
-    } catch (error) {
-      console.error("Registration failed", error.response.data);
-    }
-  };
-
-  const handleLogin = async () => {
-    try {
-      const response = await axios
-        .post("http://localhost:5055/user-login", {
-          email,
-          password,
-        })
-        .then((res) => {
-          console.log(res.data);
-        });
-    } catch (error) {
-      console.error("Login failed", error.response.data);
-    }
-  };
-
-  const handleRegisterClick = () => {
-    setRegisterActive(true);
-  };
-
-  const handleLoginClick = () => {
-    setRegisterActive(false);
-  };
-  return (
+const Resetpassword = () => {
+return (
     <>
       <style>
         {`@import url("https://fonts.googleapis.com/css2?family=Poppins");
@@ -425,14 +381,7 @@ input {
                 <label>Remember me</label>
               </div>
               <div className="pass-link">
-                <Link
-                  to="/Resetpassword"
-                  className={`pass-link ${
-                    location.pathname === "/Resetpassword" ? "active" : ""
-                  }`}
-                >
-                  Lupa Password?
-                </Link>
+                <a href="#">Lupa password?</a>
               </div>
             </div>
             <Link to={""}>
@@ -487,4 +436,4 @@ input {
   );
 };
 
-export default Masuk;
+export default Resetpassword;
