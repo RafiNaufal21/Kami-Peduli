@@ -22,13 +22,9 @@ const Causes = () => {
                 <div className="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                   <small>Gempa Bumi</small>
                 </div>
-                <h5 className="mb-3">Apa itu gempa bumi</h5>
-                <p>
-                  Gempa bumi adalah getaran atau goncangan yang terjadi di
-                  permukaan Bumi akibat dari pelepasan energi yang disebabkan
-                  oleh pergeseran di dalam kerak Bumi.
-                </p>
-                <div className="causes-progress bg-light p-3 pt-2">
+                <h5 class="mb-3">Sulawesi Tengah</h5>
+                  <p>Pada 28 September 2018, pukul 18.02 WITA, gempa bermagnitudo 7,4  Palu dan Donggala, Sulawesi Tengah. Pusat gempa dilaporkan berada 26 km utara Donggala dan 80 km barat laut Kota Palu.</p>
+                  <div class="causes-progress bg-light p-3 pt-2">
                   <p>KORBAN JIWA</p>
                   <div className="d-flex justify-content-between">
                     <p className="text-dark">
@@ -45,15 +41,15 @@ const Causes = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "40%" }}
                     >
-                      <span>9.768 jiwa</span>
+                      <span>2.045 jiwa</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="position-relative mt-auto">
-                <img className="img-fluid" src="img/courses-1.jpg" alt="" />
+                <img className="img-fluid" src="img/gempabumi.jpg" alt="" />
                 <div className="causes-overlay">
                   <a className="btn btn-outline-primary" href="">
                     Lebih Lanjut
@@ -72,22 +68,14 @@ const Causes = () => {
                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                   <small>Tsunami</small>
                 </div>
-                <h5 class="mb-3">Apa itu gempa bumi</h5>
-                <p>
-                  Gempa bumi adalah getaran atau goncangan yang terjadi di
-                  permukaan Bumi akibat dari pelepasan energi yang disebabkan
-                  oleh pergeseran di dalam kerak Bumi.
-                </p>
-                <div class="causes-progress bg-light p-3 pt-2">
-                  <p>KORBAN JIWA</p>
-                  <div class="d-flex justify-content-between">
-                    <p class="text-dark">
-                      1.000 <small class="text-body">Jiwa</small>
-                    </p>
-                    <p class="text-dark">
-                      10.000 <small class="text-body">jiwa</small>
-                    </p>
-                  </div>
+                <h5 class="mb-3">Sumatera Barat</h5>
+                            <p>Gempa tektonik berkekuatan 7,2 skala richter (SR) melanda Kepulauan Mentawai, Sumatera Barat pada 25 Oktober 2010, katau tepat 11 tahun silam. Gempa bumi yang memicu gelombang tsunami ini terjadi.</p>
+                            <div class="causes-progress bg-light p-3 pt-2">
+                                <p>KORBAN JIWA</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-dark">1.000 <small class="text-body">Jiwa</small></p>
+                                    <p class="text-dark">10.000 <small class="text-body">jiwa</small></p>
+                                </div>
                   <div class="progress">
                     <div
                       class="progress-bar"
@@ -95,15 +83,15 @@ const Causes = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "15%" }}
                     >
-                      <span>9.768 jiwa</span>
+                      <span>509 jiwa</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="position-relative mt-auto">
-                <img class="img-fluid" src="img/courses-1.jpg" alt="" />
+                <img class="img-fluid" src="img/tsunami.jpg" alt="" />
                 <div class="causes-overlay">
                   <a class="btn btn-outline-primary" href="">
                     Lebih Lanjut
@@ -121,22 +109,14 @@ const Causes = () => {
                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                   <small>Tanah Longsor</small>
                 </div>
-                <h5 class="mb-3">Apa itu gempa bumi</h5>
-                <p>
-                  Gempa bumi adalah getaran atau goncangan yang terjadi di
-                  permukaan Bumi akibat dari pelepasan energi yang disebabkan
-                  oleh pergeseran di dalam kerak Bumi.
-                </p>
-                <div class="causes-progress bg-light p-3 pt-2">
-                  <p>KORBAN JIWA</p>
-                  <div class="d-flex justify-content-between">
-                    <p class="text-dark">
-                      1.000 <small class="text-body">Jiwa</small>
-                    </p>
-                    <p class="text-dark">
-                      10.000 <small class="text-body">jiwa</small>
-                    </p>
-                  </div>
+                <h5 class="mb-3">Jawa Tengah</h5>
+                            <p>Telah terjadi banjir dan tanah longsor di Kecamatan Tembalang dan Banyumanik Kota Semarang pada tanggal 06 Januari 2023 pukul 15.00 WIB. Akibat kejadian ini 42 Kepala keluarga terdampak banjir dengan ketinggian air 50-250 cm.</p>
+                            <div class="causes-progress bg-light p-3 pt-2">
+                                <p>KERUSAKAN RUMAH</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-dark">100 <small class="text-body">Rumah</small></p>
+                                    <p class="text-dark">1.000 <small class="text-body">Rumah</small></p>
+                                </div>
                   <div class="progress">
                     <div
                       class="progress-bar"
@@ -144,15 +124,15 @@ const Causes = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "25%" }}
                     >
-                      <span>9.768 jiwa</span>
+                      <span>128 Rumah</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="position-relative mt-auto">
-                <img class="img-fluid" src="img/courses-1.jpg" alt="" />
+                <img class="img-fluid" src="img/longsor.jpg" alt="" />
                 <div class="causes-overlay">
                   <a class="btn btn-outline-primary" href="">
                     Lebih Lanjut
@@ -170,21 +150,13 @@ const Causes = () => {
                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                   <small>Banjir</small>
                 </div>
-                <h5 class="mb-3">Apa itu gempa bumi</h5>
-                <p>
-                  Gempa bumi adalah getaran atau goncangan yang terjadi di
-                  permukaan Bumi akibat dari pelepasan energi yang disebabkan
-                  oleh pergeseran di dalam kerak Bumi.
-                </p>
-                <div class="causes-progress bg-light p-3 pt-2">
-                  <p>KORBAN JIWA</p>
-                  <div class="d-flex justify-content-between">
-                    <p class="text-dark">
-                      1.000 <small class="text-body">Jiwa</small>
-                    </p>
-                    <p class="text-dark">
-                      10.000 <small class="text-body">jiwa</small>
-                    </p>
+                <h5 class="mb-3">Jawa Tengah</h5>
+                            <p>Kawasan Kecamatan Margadana, Kota Tegal, terendam banjir. Akibatnya sebanyak 450 rumah terendam banjir dan 182 warga terpaksa mengungsi.</p>
+                            <div class="causes-progress bg-light p-3 pt-2">
+                                <p>KERUSAKAN RUMAH</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-dark">100 <small class="text-body">Rumah</small></p>
+                                    <p class="text-dark">1.000 <small class="text-body">Rumah</small></p>
                   </div>
                   <div class="progress">
                     <div
@@ -193,15 +165,15 @@ const Causes = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "50%" }}
                     >
-                      <span>9.768 jiwa</span>
+                      <span>450 Rumah</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="position-relative mt-auto">
-                <img class="img-fluid" src="img/courses-1.jpg" alt="" />
+                <img class="img-fluid" src="img/banjir.jpg" alt="" />
                 <div class="causes-overlay">
                   <a class="btn btn-outline-primary" href="">
                     Lebih Lanjut
@@ -219,38 +191,30 @@ const Causes = () => {
                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                   <small>Gunung Meletus</small>
                 </div>
-                <h5 class="mb-3">Apa itu gempa bumi</h5>
-                <p>
-                  Gempa bumi adalah getaran atau goncangan yang terjadi di
-                  permukaan Bumi akibat dari pelepasan energi yang disebabkan
-                  oleh pergeseran di dalam kerak Bumi.
-                </p>
-                <div class="causes-progress bg-light p-3 pt-2">
-                  <p>KORBAN JIWA</p>
-                  <div class="d-flex justify-content-between">
-                    <p class="text-dark">
-                      1.000 <small class="text-body">Jiwa</small>
-                    </p>
-                    <p class="text-dark">
-                      10.000 <small class="text-body">jiwa</small>
-                    </p>
-                  </div>
-                  <div class="progress">
-                    <div
+                <h5 class="mb-3">Bali</h5>
+                            <p>Gunung Agung terletak di Bali, Indonesia, dan meletus terakhir kali pada 2017. Letusan tersebut menyebabkan evakuasi.</p>
+                            <div class="causes-progress bg-light p-3 pt-2">
+                                <p>EVAKUASI WARGA</p>
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-dark">10.000 <small class="text-body">Warga</small></p>
+                                    <p class="text-dark">100.000 <small class="text-body">Warga</small></p>
+                                </div>
+                                <div class="progress">
+                                  <div
                       class="progress-bar"
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "50%" }}
                     >
-                      <span>9.768 jiwa</span>
+                      <span>40.000 warga</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="position-relative mt-auto">
-                <img class="img-fluid" src="img/courses-1.jpg" alt="" />
+                <img class="img-fluid" src="img/gunungmeletus.jpg" alt="" />
                 <div class="causes-overlay">
                   <a class="btn btn-outline-primary" href="">
                     Lebih Lanjut
